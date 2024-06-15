@@ -1,0 +1,10 @@
+.header {
+    height: 70px;
+    border-bottom: 1px solid var(--grey);
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        padding-top: 16px;
+    }
+}

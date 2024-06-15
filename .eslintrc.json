@@ -1,0 +1,69 @@
+{
+    "plugins": ["react", "css-modules", "prettier"],
+  
+    "extends": [
+      // "react-app",
+      "react-app/jest",
+      "airbnb",
+      "airbnb/hooks",
+      "airbnb-typescript",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:css-modules/recommended",
+      "plugin:prettier/recommended" // should be last
+    ],
+  
+    "parserOptions": {
+      "ecmaVersion": 2023,
+      "sourceType": "module",
+      "project": "./tsconfig.json"
+    },
+  
+    "rules": {
+      "import/prefer-default-export": 0, // use named imports/exports in projects
+      "@typescript-eslint/no-explicit-any": 2, // any is evil
+      "react/react-in-jsx-scope": 0, // not necessary for new React
+      "react/function-component-definition": [2, { "namedComponents": "arrow-function" }], // better for consistency
+      "react/require-default-props": [
+        1,
+        { "forbidDefaultForRequired": true, "functions": "defaultArguments" } // It's not exactly an antipattern, but some logic can be broken if defaults are not assigned
+      ],
+      "jsx-a11y/click-events-have-key-events": 1, // keyboard events on invisible interactive divs
+      "jsx-a11y/no-static-element-interactions": 1, // roles for all interactive divs
+      "react/button-has-type": 1, // 'submit' is default so unexpected submit event can occure
+      "import/no-extraneous-dependencies": 0, // we know better where to install packages
+      "react/prop-types": "off", // It's better to use them, but TypeScript helps enough
+      "css-modules/no-unused-class": [1, { "camelCase": true }],
+      "css-modules/no-undef-class": [2, { "camelCase": true }],
+      "react/jsx-props-no-spreading": "off",
+      "jsx-a11y/control-has-associated-label": [
+        2,
+        {
+          "labelAttributes": ["label"],
+          "controlComponents": ["CustomComponent"],
+          "ignoreElements": [
+            "button" //not every btn deserves label
+            // "audio",
+            // "canvas",
+            // "embed",
+            // "input",
+            // "textarea",
+            // "tr",
+            // "video"
+          ],
+          "ignoreRoles": [
+            // "grid",
+            // "listbox",
+            // "menu",
+            // "menubar",
+            // "radiogroup",
+            // "row",
+            // "tablist",
+            // "toolbar",
+            // "tree",
+            // "treegrid"
+          ]
+        }
+      ]
+    }
+  }
