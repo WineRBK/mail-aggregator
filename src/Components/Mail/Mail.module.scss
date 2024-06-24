@@ -1,3 +1,86 @@
 .mail {
-    
+    cursor: pointer;
+    user-select: none;
+
+    position: relative;
+
+    max-width: 379px;
+    padding: 17px 10px 20px;
+
+    border-radius: 10px;
+
+    transition: .2s;
+
+    &::after {
+        content: "";
+
+        position: absolute;
+        bottom: -1px;
+        left: 68px;
+
+        width: 296px;
+        height: 1px;
+
+        background-color:var(--dark-grey);
+    }
+
+    &:hover {
+        background-color: var(--background-light);
+    }
+
+    &__container {
+        display: flex;
+        gap: 15px;
+    }
+
+    &__imageWrapper {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+
+        background-color: var(--grey);
+        border-radius: 100%;
+    }
+
+    &__firstRow {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__secondRow {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7px;
+    }
+
+    &__name {
+        font-size: 20px;
+        color: var(--white);
+    }
+
+    &__date {
+        align-self: center;
+        font-size: 14px;
+        color: var(--grey);
+    }
+
+    &__title {
+        font-size: 16px;
+        color: var(--font);
+    }
+
+    &__text {
+        overflow: hidden;
+        display: -webkit-box; /* Включаем флексбокс для мультистрочного обрезания текста */
+        -webkit-box-orient: vertical; /* Ориентация флексбокса - вертикальная */
+
+        max-width: 281px;
+        max-height: 48px;
+
+        color: var(--grey);
+        text-overflow: ellipsis;
+
+        -webkit-line-clamp: 2; /* Указываем количество строк, которые должны отображаться */
+
+    }
 }

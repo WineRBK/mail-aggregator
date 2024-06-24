@@ -1,0 +1,25 @@
+.search {
+    height: 50px;
+    padding-left: 50px;
+
+    font-size: 20px;
+    color: var(--grey);
+
+    background: var(--background-light);
+    border: none;
+    border-radius: 10px;
+
+    &:focus {
+        outline: none;
+    }
+
+    &__wrapper {
+        position: relative;
+    }
+    
+    &__icon {
+        position: absolute;
+        top: 13px;
+        left: 15px;  
+    }
+}

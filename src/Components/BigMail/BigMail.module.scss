@@ -1,0 +1,88 @@
+.bigMail {
+    overflow-y: scroll;
+    height: 100%;
+    max-height: calc(100vh - 70px);
+
+    &::-webkit-scrollbar {
+      width: 5px; /* ширина скроллбара */
+      background-color: var(--dark-border);
+      
+  }
+  
+  &::-webkit-scrollbar-thumb {
+      background-color: var(--grey); /* цвет ползунка */
+      border-radius: 5px; /* скругление углов ползунка */
+  }
+  }
+  
+  .bigMail__content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 30px;
+  }
+  
+  .bigMail__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 80%;
+
+  }
+
+  .bigMail__header {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .bigMail__avatar {
+    width: 60px;
+    height: 60px;
+    background-color: var(--grey);
+    border-radius: 100%;
+  }
+  
+  .bigMail__senderInfo {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .bigMail__senderName {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+  }
+  
+  .bigMail__recipient {
+    font-size: 16px;
+    color: var(--grey);
+  }
+  
+  .bigMail__title {
+    margin-bottom: 17px;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--font);
+  }
+  
+  .bigMail__messageContent {
+    flex: 2;
+
+    height: 100%;
+
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--white);
+  }
+  
+  .bigMail__date {
+    justify-self: flex-end;
+    margin-top: 10px;
+    color: var(--grey);
+    text-align: right;
+  }
+  

@@ -1,5 +1,33 @@
+/* App.module.scss */
 .app {
+  display: flex;
+  flex-direction: column; /* Обеспечивает вертикальную флекс-раскладку */
+
+  height: 100%;
   min-height: 100vh;
+
   font-family: Poppins, sans-serif;
+
   background-color: var(--background);
+}
+
+.container {
+  display: flex;
+  flex: 1; /* Занимает все доступное пространство в родительском .app */
+}
+
+main {
+  overflow-y: auto; /* Если контент в Main должен прокручиваться */
+  flex: 2;
+}
+
+/* Глобальные стили */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
 }
