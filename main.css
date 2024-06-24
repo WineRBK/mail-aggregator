@@ -1,0 +1,715 @@
+/*!********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss ***!
+  \********************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/ContainerContent/ContainerContent.module.scss ***!
+  \***********************************************************************************************************************************************************************************/
+.xnuoEOdR {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Layout/Header/Header.module.scss ***!
+  \***********************************************************************************************************************************************************/
+._RcjsJU2 {
+  height: 70px;
+  border-bottom: 1px solid var(--grey);
+}
+.r7rH1NyK {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+}
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/BigMail/BigMail.module.scss ***!
+  \*****************************************************************************************************************************************************************/
+@charset "UTF-8";
+.kWmTzlDS {
+  overflow-y: scroll;
+  height: 100%;
+  max-height: calc(100vh - 70px);
+}
+.kWmTzlDS::-webkit-scrollbar {
+  width: 5px; /* ширина скроллбара */
+  background-color: var(--dark-border);
+}
+.kWmTzlDS::-webkit-scrollbar-thumb {
+  background-color: var(--grey); /* цвет ползунка */
+  border-radius: 5px; /* скругление углов ползунка */
+}
+
+.aJfP_yUa {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 30px;
+}
+
+.MW8JItui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+
+.eJd1nqtZ {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.yCP1yCJY {
+  width: 60px;
+  height: 60px;
+  background-color: var(--grey);
+  border-radius: 100%;
+}
+
+.ozg2KwrF {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.N8lZ4vS_ {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.sMeENoW9 {
+  font-size: 16px;
+  color: var(--grey);
+}
+
+.wFP3aRXH {
+  margin-bottom: 17px;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--font);
+}
+
+.z36Z_Zqq {
+  flex: 2;
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+.w43cPHK6 {
+  justify-self: flex-end;
+  margin-top: 10px;
+  color: var(--grey);
+  text-align: right;
+}
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/BigMail/Components/ButtonsContainer/ButtonsContainer.module.scss ***!
+  \******************************************************************************************************************************************************************************************************/
+.MQXK5I7z {
+  height: 60px;
+  border-bottom: 1px solid var(--background-light);
+}
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/Titles/H1/H1.module.scss ***!
+  \**************************************************************************************************************************************************************/
+.ixbNXbHS {
+  color: var(--white);
+  font-size: 42px;
+}
+/*!***************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/Search/Search.module.scss ***!
+  \***************************************************************************************************************************************************************/
+.I6jwszP_ {
+  height: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+  color: var(--grey);
+  background: var(--background-light);
+  border: none;
+  border-radius: 10px;
+}
+.I6jwszP_:focus {
+  outline: none;
+}
+.zcMYKj0C {
+  position: relative;
+}
+.CmfFNaI1 {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+}
+/*!*************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Layout/Sidebar/Sidebar.module.scss ***!
+  \*************************************************************************************************************************************************************/
+@charset "UTF-8";
+.FTpOtdbT {
+  overflow-y: scroll;
+  max-width: 436px;
+  max-height: calc(100vh - 70px);
+  border-right: 1px solid var(--dark-border);
+}
+.FTpOtdbT::-webkit-scrollbar {
+  width: 5px; /* ширина скроллбара */
+  background-color: var(--dark-border);
+}
+.FTpOtdbT::-webkit-scrollbar-thumb {
+  background-color: var(--grey); /* цвет ползунка */
+  border-radius: 5px; /* скругление углов ползунка */
+}
+.ly9BA3Dd {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 20px 30px;
+  border-bottom: 1px solid var(--background-light);
+}
+.Yj9LHky5 {
+  font-size: 16px;
+  color: var(--grey);
+}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/Mail/Mail.module.scss ***!
+  \***********************************************************************************************************************************************************/
+@charset "UTF-8";
+.nUjVsmkZ {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  max-width: 379px;
+  padding: 17px 10px 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.nUjVsmkZ::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 68px;
+  width: 296px;
+  height: 1px;
+  background-color: var(--dark-grey);
+}
+.nUjVsmkZ:hover {
+  background-color: var(--background-light);
+}
+.lxYaoQWv {
+  display: flex;
+  gap: 15px;
+}
+.atO4sNPy {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  background-color: var(--grey);
+  border-radius: 100%;
+}
+.t8yPtXzn {
+  display: flex;
+  justify-content: space-between;
+}
+.oOg_za3f {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+._0wu6Fl1 {
+  font-size: 20px;
+  color: var(--white);
+}
+.eXqiFbC_ {
+  align-self: center;
+  font-size: 14px;
+  color: var(--grey);
+}
+.XWfNEp_m {
+  font-size: 16px;
+  color: var(--font);
+}
+.STx20An7 {
+  overflow: hidden;
+  display: -webkit-box; /* Включаем флексбокс для мультистрочного обрезания текста */
+  -webkit-box-orient: vertical; /* Ориентация флексбокса - вертикальная */
+  max-width: 281px;
+  max-height: 48px;
+  color: var(--grey);
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* Указываем количество строк, которые должны отображаться */
+}
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/Titles/H2/H2.module.scss ***!
+  \**************************************************************************************************************************************************************/
+.xcAOqKrq {
+  font-size: 28px;
+  color: var(--white);
+}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Components/MailList/MailList.module.scss ***!
+  \*******************************************************************************************************************************************************************/
+.EbEVnVBo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+}
+.ialHov5A {
+  margin: 0 auto;
+}
+/*!*****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/Layout/App/App.module.scss ***!
+  \*****************************************************************************************************************************************************/
+@charset "UTF-8";
+/* App.module.scss */
+.WTDMuaNp {
+  display: flex;
+  flex-direction: column; /* Обеспечивает вертикальную флекс-раскладку */
+  height: 100%;
+  min-height: 100vh;
+  font-family: Poppins, sans-serif;
+  background-color: var(--background);
+}
+
+.Qy4ZpGKi {
+  display: flex;
+  flex: 1; /* Занимает все доступное пространство в родительском .app */
+}
+
+main {
+  overflow-y: auto; /* Если контент в Main должен прокручиваться */
+  flex: 2;
+}
+
+/* Глобальные стили */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+}
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./src/styles/normalize.css ***!
+  \********************************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input {
+    /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select {
+    /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type='button']::-moz-focus-inner,
+  [type='reset']::-moz-focus-inner,
+  [type='submit']::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type='button']:-moz-focusring,
+  [type='reset']:-moz-focusring,
+  [type='submit']:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type='checkbox'],
+  [type='radio'] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type='number']::-webkit-inner-spin-button,
+  [type='number']::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type='search'] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type='search']::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss (1) ***!
+  \************************************************************************************************************************************************/
+:root {
+  /* Colors */
+  --background: #1f1f1f;
+  --dark: #262626;
+  --dark-grey: #303030;
+  --grey: #606063;
+  --white: #d1d0d1;
+  --font: #abacac;
+  --primary: #4578f7;
+  --background-light: #353739;
+  --border: #242424;
+  --dark-border: #141414;
+  /* Font-family */
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+}
+
+button {
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
